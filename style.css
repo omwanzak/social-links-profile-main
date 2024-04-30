@@ -1,0 +1,109 @@
+.card {
+    background-color: hsl(0, 0%, 12%);
+    height:611px ;
+    width:384px;
+    border-radius: 12px;
+}
+.main {
+    padding: 40px;
+    justify-items: center;
+    display: grid;
+    align-items: end;
+}
+body {
+    background-color: hsl(0, 0%, 8%);
+    font-family: "Inter", sans-serif;
+    min-height: 100vh;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+
+}
+img{
+    height: 88px;
+    width: 88px;
+    border-radius: 999px;
+}
+/* figure{
+    margin:0px;
+} */
+.figcaption {
+    height:61px;
+    width: 304px;
+    margin-top: 24px;
+    justify-items: center;
+    display: grid;
+    align-items: end;
+}
+.name {
+    color: white;
+    margin-bottom: 4px;
+    font-weight: 700;
+   font-size: 22px;
+
+}
+.location {
+    color:hsl(75, 94%, 57%);
+    font-size: 14px;
+}
+.baton{
+    display: inline-grid;
+    height: 289px;
+    width: 304px;
+}
+h4{
+    color: white;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    height: 21px;
+    width: 304px;
+    font-weight: 400;
+    font-size: 14px;
+    display: grid;
+    justify-content: center;
+
+}
+button{
+    height: 45px;
+    width: 304px;
+    margin-bottom: 16px;
+    background-color:hsl(0, 0%, 20%)!important;
+    cursor: pointer;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+    transition: background-color 0.6s ease;
+    font-size: 14px;
+
+
+}
+button:active {
+    background-color: hsl(75, 94%, 57%);
+    color:hsl(0, 0%, 8%) ;
+}
+
+
+/* Mobile styles */
+@media only screen and (max-width: 375px) {
+    .box{
+    width: 327px;
+    height: 579px;
+}
+}
+
+/* Tablet and Desktop styles */
+@media only screen and (min-width: 376px) {
+    .box{
+        width: 327px;
+        height: 579px;
+    }
+}
+@media screen and (min-width: 1440px) {
+    .box {
+        width: 384px;
+        height: 611px;
+        
+    }
+}
+
